@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link href="css/custom-styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Poller+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logocontainer">
+        <a href="index.html"><img src="minified/images/logo.png" alt="ReCycle Logo" class="logo"></a>
+      </div>
+      <nav>
+        <ul class="headernav">
+          <li><a href="contact.html" class="navlinks">CONTACT </a></li>
+          <li><a href="about.html" class="navlinks">ABOUT </a></li>
+          <li><a href="routes.html" class="navlinks">ROUTES</a></li>
+          <li><a href="index.html" class="navlinks">HOME</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT-->
+    <section class="maincontainer">
+      <div class="welcome">
+        <h1>Get in touch with Re-Cycle</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras orci ipsum, malesuada ut mi eu, lobortis sodales felis. Sed ac risus nunc. Vestibulum viverra tempus orci, ut pellentesque massa. Praesent lacinia commodo neque, nec faucibus purus sollicitudin at. Quisque nec lacus sit amet quam laoreet imperdiet. Cras porta faucibus risus, et tincidunt ligula cursus et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras orci ipsum, malesuada ut mi eu, lobortis sodales felis. Sed ac risus nunc. Vestibulum viverra tempus orci, ut pellentesque massa.</p>
+        <h2>You can find us here:</h2>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="330" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=aker%20brygge%20oslo&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://www.pureblack.de">pure black gmbh</a>
+          </div>
+        </div>
+        <p><i class="fas fa-map-marked-alt"></i> Detteerikkeenekteveien 18, 4321 Oslo, Norway</p>
+        <p><i class="far fa-envelope"></i> Erikkeenekteemailheller@re-cycle.com</p>
+        <p><i class="fas fa-phone"></i> +47 903 47 856</p>
+      </div>
+
+      <div class="outline">
+        <img src="minified/images/outline.png" alt="outline" class="line">
+      </div>
+
+      <div class="welcome">
+        <h2>Send us a message</h2>
+        <form action="#">
+          <label for="fname">First Name</label><br>
+          <input class="contact" type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+          <label for="lname">Last Name</label><br>
+          <input class="contact" type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+          <label for="country">Country</label><br>
+          <select id="country" name="country"><br>
+            <option value="australia">Denmark</option>
+            <option value="canada">Norway</option>
+            <option value="usa">Sweden</option>
+          </select><br>
+          <label for="subject">Message</label><br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
+          <input type="submit" value="Submit" class="button"><br>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footercontainer">
+        <div class="footernav">
+          <h4>Got any questions?</h4>
+          <ul class="questions">
+            <li class="questionlinks">Give us a call</li>
+            <li class="questionlinks">Chat with us</li>
+            <li class="questionlinks">Send us an email</li>
+          </ul>
+        </div>
+        <div class="footernav">
+          <h4>Connect to us</h4>
+          <p>Follow us for the latest routes, news, and updates about Re-Cycle.</p>
+          <ul class="connect">
+            <li class="connectlinks"><i class="fab fa-facebook"></i></li>
+            <li class="connectlinks"><i class="fab fa-twitter-square"></i></li>
+            <li class="connectlinks"><i class="fab fa-instagram"></i></li>
+            <li class="connectlinks"><i class="fab fa-snapchat-square"></i></li>
+            <li class="connectlinks"><i class="fab fa-linkedin-in"></i></li>
+          </ul>
+        </div>
+        <div class="footernav">
+          <h4>Get the latest info by getting an email.</h4>
+          <form class="subscription">
+            <input class="subscribe" type="text" name="name" value="Your Name"><br>
+            <input class="subscribe" type="text" name="email" value="Email Address"><br>
+            <input class="subscribebutton" type="submit" value="Subscribe">
+          </form>
+        </div>
+      </div>
+      <p>© 2018 Noroff • HTML and CSS • Bryan Luis Villafuerte • Course Assignment</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+@media all and (max-width: 480px) {
+    /* MAIN SECTION HOME */
+
+    /* FOOTER */
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 960px) {
+    /* HEADER */
+    
+
+    /* MAIN SECTION */
+    
+
+    /* FOOTER */
+    
+}
+
+@media all and (min-width: 961px) and (max-width: 1280px) {
+    /* HEADER */
+    
+
+    /* MAIN SECTION */
+    
+
+    /* FOOTER */
+    
+}
+
+@media all and (min-width: 1281px) {
+    /* HEADER */
+    
+
+    /* MAIN SECTION */
+    
+
+    /* FOOTER */
+    
+}

@@ -1,0 +1,794 @@
+body {
+  margin: 0%;
+  font-family: 'Cabin', sans-serif;
+  color: #1a1a1a; }
+
+@media all and (max-width: 480px) {
+  header {
+    background-color: #d42a2a;
+    width: 100%;
+    padding-top: 1px; }
+  .logocontainer {
+    display: block;
+    margin-top: 20px;
+    text-align: center; }
+  .logo {
+    display: inline-block;
+    height: 130px; }
+  .headernav {
+    list-style: none;
+    background-color: #1a1a1a;
+    margin: 0%;
+    margin-top: -30px;
+    padding: 0%;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    text-align: center; }
+  .navlinks {
+    float: right;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: bold; }
+  .navlinks:hover {
+    color: #d42a2a; } }
+
+@media all and (min-width: 481px) and (max-width: 960px) {
+  header {
+    background-color: #d42a2a;
+    width: 100%;
+    padding-top: 1px; }
+  .logocontainer {
+    display: block;
+    margin-top: 20px;
+    text-align: center; }
+  .logo {
+    display: inline-block;
+    height: 130px; }
+  .headernav {
+    list-style: none;
+    background-color: #1a1a1a;
+    margin: 0%;
+    margin-top: -30px;
+    padding: 0%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center; }
+  .navlinks {
+    float: right;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+    padding-left: 7px;
+    padding-right: 17px;
+    font-weight: bold; }
+  .navlinks:hover {
+    color: #d42a2a; } }
+
+@media all and (min-width: 961px) and (max-width: 1280px) {
+  header {
+    background-color: #d42a2a;
+    width: 100%;
+    padding-top: 1px; }
+  .logocontainer {
+    display: block;
+    margin-top: 20px;
+    text-align: center; }
+  .logo {
+    display: inline-block;
+    height: 200px; }
+  .headernav {
+    list-style: none;
+    background-color: #1a1a1a;
+    margin: 0%;
+    margin-top: -100px;
+    padding: 0%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center; }
+  .navlinks {
+    float: right;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+    padding-left: 7px;
+    padding-right: 17px;
+    font-weight: bold; }
+  .navlinks:hover {
+    color: #d42a2a; } }
+
+@media all and (min-width: 1281px) {
+  header {
+    background-color: #d42a2a;
+    width: 100%;
+    padding-top: 1px; }
+  .logocontainer {
+    display: block;
+    margin-top: 20px;
+    text-align: center; }
+  .logo {
+    display: inline-block;
+    height: 200px; }
+  .headernav {
+    list-style: none;
+    background-color: #1a1a1a;
+    margin: 0%;
+    margin-top: -100px;
+    padding: 0%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center; }
+  .navlinks {
+    float: right;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+    padding-left: 7px;
+    padding-right: 17px;
+    font-weight: bold; }
+  .navlinks:hover {
+    color: #d42a2a; } }
+
+@media all and (max-width: 480px) {
+  .maincontainer {
+    width: 100%; }
+  .headerinfo {
+    background-image: url(../images/oslobike001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 1px; }
+  .headertext {
+    display: block;
+    width: 60%;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.5);
+    padding: 20px;
+    font-family: 'Poller One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    font-size: 28px;
+    border-radius: 10px; }
+  .welcome {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px; }
+  h1 {
+    font-family: 'Poller One', cursive;
+    font-size: 40px;
+    line-height: 40px; }
+  h2 {
+    font-size: 24px;
+    margin-top: 0%; }
+  .outline {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .line {
+    width: 90%;
+    height: 10px; }
+  h3 {
+    font-family: 'Poller One', cursive;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bikeroutes {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0%; }
+  .routeimg {
+    width: 100%; }
+  .founders {
+    float: left;
+    width: 50%;
+    margin-right: 20px; }
+  .columns {
+    width: 100%;
+    margin-bottom: 30px; }
+  .description {
+    margin-top: 0%;
+    margin-bottom: 30px; }
+  .bikes {
+    margin-bottom: 0%; }
+  .button {
+    color: white;
+    background-color: #1a1a1a;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: all 0.2s linear; }
+  .button:hover {
+    background-color: #d42a2a; }
+  .buttonlink {
+    text-decoration: none; }
+  .button2 {
+    color: white;
+    background-color: #1a1a1a;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    margin-bottom: 30px; }
+  .button2:hover {
+    background-color: #d42a2a; }
+  .mapouter {
+    text-align: center;
+    height: 400px;
+    width: 330px;
+    margin-bottom: 30px; }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 330px; }
+  .contact, select, textarea {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; } }
+
+@media all and (min-width: 481px) and (max-width: 960px) {
+  .maincontainer {
+    width: 100%; }
+  .headerinfo {
+    background-image: url(../images/oslobike001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 1px; }
+  .headertext {
+    display: block;
+    width: 60%;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.5);
+    padding: 20px;
+    font-family: 'Poller One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-size: 36px;
+    border-radius: 10px; }
+  .welcome {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px; }
+  h1 {
+    font-family: 'Poller One', cursive;
+    font-size: 40px;
+    line-height: 40px; }
+  h2 {
+    font-size: 24px;
+    margin-top: 0%; }
+  .outline {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .line {
+    width: 90%;
+    height: 10px; }
+  h3 {
+    font-family: 'Poller One', cursive;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bikeroutes {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0%; }
+  .routeimg {
+    float: left;
+    width: 50%;
+    margin-right: 30px; }
+  .founders {
+    float: left;
+    width: 50%;
+    margin-right: 20px; }
+  .columns {
+    width: 100%;
+    margin-bottom: 30px; }
+  .description {
+    margin-top: 0%;
+    margin-bottom: 30px; }
+  .bikes {
+    margin-bottom: 0%; }
+  .button {
+    color: white;
+    background-color: #1a1a1a;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: all 0.2s linear; }
+  .button:hover {
+    background-color: #d42a2a; }
+  .buttonlink {
+    text-decoration: none; }
+  .button2 {
+    color: white;
+    background-color: #1a1a1a;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    margin-bottom: 30px; }
+  .button2:hover {
+    background-color: #d42a2a; }
+  .mapouter {
+    text-align: center;
+    height: 400px;
+    width: 330px;
+    margin-bottom: 30px; }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 330px; }
+  .contact, select, textarea {
+    display: block;
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; } }
+
+@media all and (min-width: 961px) and (max-width: 1280px) {
+  .maincontainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+  .headerinfo {
+    background-image: url(../images/oslobike001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 1px; }
+  .headertext {
+    display: block;
+    width: 60%;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.5);
+    padding: 20px;
+    font-family: 'Poller One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-size: 36px;
+    border-radius: 10px;
+    text-align: center; }
+  .welcome {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 18px; }
+  h1 {
+    font-family: 'Poller One', cursive;
+    font-size: 40px;
+    line-height: 40px; }
+  h2 {
+    font-size: 24px;
+    margin-top: 0%; }
+  .outline {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .line {
+    width: 90%;
+    height: 10px; }
+  h3 {
+    font-family: 'Poller One', cursive;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bikeroutes {
+    display: flex;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0%; }
+  .routeimg {
+    width: 100%; }
+  .founders {
+    float: left;
+    width: 50%;
+    margin-right: 20px; }
+  .columns {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px; }
+  .description {
+    margin-top: 0%;
+    margin-bottom: 30px; }
+  .bikes {
+    margin-bottom: 0%; }
+  .button {
+    color: white;
+    background-color: #1a1a1a;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: all 0.2s linear; }
+  .button:hover {
+    background-color: #d42a2a; }
+  .buttonlink {
+    text-decoration: none; }
+  .button2 {
+    color: white;
+    background-color: #1a1a1a;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    margin-bottom: 30px; }
+  .button2:hover {
+    background-color: #d42a2a; }
+  .mapouter {
+    text-align: center;
+    height: 400px;
+    width: 330px;
+    margin-bottom: 30px; }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 330px; }
+  .contact, select, textarea {
+    display: block;
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; } }
+
+@media all and (min-width: 1281px) {
+  .maincontainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; }
+  .headerinfo {
+    background-image: url(../images/oslobike001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 1px; }
+  .headertext {
+    display: block;
+    width: 50%;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.5);
+    padding: 20px;
+    font-family: 'Poller One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    font-size: 36px;
+    border-radius: 10px;
+    text-align: center; }
+  .welcome {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 18px; }
+  h1 {
+    font-family: 'Poller One', cursive;
+    font-size: 40px;
+    line-height: 40px; }
+  h2 {
+    font-size: 24px;
+    margin-top: 0%; }
+  .outline {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .line {
+    width: 90%;
+    height: 10px; }
+  h3 {
+    font-family: 'Poller One', cursive;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bikeroutes {
+    display: flex;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0%; }
+  .routeimg {
+    width: 100%; }
+  .founders {
+    float: left;
+    width: 50%;
+    margin-right: 20px; }
+  .columns {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px; }
+  .description {
+    margin-top: 0%;
+    margin-bottom: 30px; }
+  .bikes {
+    margin-bottom: 0%; }
+  .button {
+    color: white;
+    background-color: #1a1a1a;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: all 0.2s linear; }
+  .button:hover {
+    background-color: #d42a2a; }
+  .buttonlink {
+    text-decoration: none; }
+  .button2 {
+    color: white;
+    background-color: #1a1a1a;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    margin-bottom: 30px; }
+  .button2:hover {
+    background-color: #d42a2a; }
+  .mapouter {
+    text-align: center;
+    height: 400px;
+    width: 330px;
+    margin-bottom: 30px; }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 330px; }
+  .contact, select, textarea {
+    display: block;
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; } }
+
+@media all and (max-width: 480px) {
+  footer {
+    color: white;
+    background-color: #d42a2a;
+    text-align: center;
+    padding-bottom: 1px;
+    margin: 0%;
+    font-size: 18px;
+    margin-top: 50px; }
+  .footercontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    margin: 0%;
+    padding: 20px; }
+  .footernav {
+    text-align: left; }
+  .questions, .connect, .subscribe {
+    list-style: none; }
+  .questionlinks {
+    transition: all 0.2s linear; }
+  .questionlinks:hover {
+    color: #d42a2a; }
+  .connectlinks {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    transition: all 0.2s linear; }
+  .connectlinks:hover {
+    color: #d42a2a; }
+  .subscription {
+    line-height: 35px; }
+  .subscribe {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px; }
+  .subscribebutton {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #F5F1EE;
+    font-weight: bold;
+    transition: all 0.1s linear; }
+  .subscribebutton:hover {
+    background-color: #d42a2a; } }
+
+@media all and (min-width: 481px) and (max-width: 960px) {
+  footer {
+    color: white;
+    background-color: #d42a2a;
+    text-align: center;
+    padding-bottom: 1px;
+    margin: 0%;
+    font-size: 18px;
+    margin-top: 50px; }
+  .footercontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    margin: 0%;
+    padding: 20px; }
+  .footernav {
+    text-align: left; }
+  .questions, .connect, .subscribe {
+    list-style: none; }
+  .questionlinks {
+    transition: all 0.2s linear; }
+  .questionlinks:hover {
+    color: #d42a2a; }
+  .connectlinks {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    transition: all 0.2s linear; }
+  .connectlinks:hover {
+    color: #d42a2a; }
+  .subscription {
+    line-height: 35px; }
+  .subscribe {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px; }
+  .subscribebutton {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #F5F1EE;
+    font-weight: bold;
+    transition: all 0.1s linear; }
+  .subscribebutton:hover {
+    background-color: #d42a2a; } }
+
+@media all and (min-width: 961px) and (max-width: 1280px) {
+  footer {
+    color: white;
+    background-color: #d42a2a;
+    text-align: center;
+    padding-bottom: 1px;
+    margin: 0%;
+    font-size: 18px;
+    margin-top: 50px; }
+  .footercontainer {
+    display: flex;
+    background-color: #1a1a1a;
+    margin: 0%;
+    padding: 20px;
+    text-align: center; }
+  .footernav {
+    width: 33.33%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .questions, .connect, .subscribe {
+    list-style: none; }
+  .questionlinks {
+    transition: all 0.2s linear; }
+  .questionlinks:hover {
+    color: #d42a2a; }
+  .connectlinks {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    transition: all 0.2s linear; }
+  .connectlinks:hover {
+    color: #d42a2a; }
+  .subscription {
+    line-height: 35px; }
+  .subscribe {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px; }
+  .subscribebutton {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #F5F1EE;
+    font-weight: bold;
+    transition: all 0.1s linear; }
+  .subscribebutton:hover {
+    background-color: #d42a2a; } }
+
+@media all and (min-width: 1281px) {
+  footer {
+    color: white;
+    background-color: #d42a2a;
+    text-align: center;
+    padding-bottom: 1px;
+    margin: 0%;
+    font-size: 18px;
+    margin-top: 50px; }
+  .footercontainer {
+    display: flex;
+    background-color: #1a1a1a;
+    margin: 0%;
+    padding: 20px;
+    text-align: center; }
+  .footernav {
+    width: 33.33%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .questions, .connect, .subscribe {
+    list-style: none; }
+  .questionlinks {
+    transition: all 0.2s linear; }
+  .questionlinks:hover {
+    color: #d42a2a; }
+  .connectlinks {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    transition: all 0.2s linear; }
+  .connectlinks:hover {
+    color: #d42a2a; }
+  .subscription {
+    line-height: 35px; }
+  .subscribe {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px; }
+  .subscribebutton {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #F5F1EE;
+    font-weight: bold;
+    transition: all 0.1s linear; }
+  .subscribebutton:hover {
+    background-color: #d42a2a; } }

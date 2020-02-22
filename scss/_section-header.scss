@@ -1,0 +1,175 @@
+@media all and (max-width: 480px) {
+    header {
+        background-color: #d42a2a;
+        width: 100%;
+        padding-top: 1px;
+    }
+
+    .logocontainer {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        height: 130px;
+    }
+
+    .headernav {
+        list-style: none;
+        background-color: #1a1a1a;
+        margin: 0%;
+        margin-top: -30px;
+        padding: 0%;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .navlinks {
+        float: right;
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s linear;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-weight: bold;
+    }
+
+    .navlinks:hover {
+        color: #d42a2a;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 960px) {
+    header {
+        background-color: #d42a2a;
+        width: 100%;
+        padding-top: 1px;
+    }
+
+    .logocontainer {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        height: 130px;
+    }
+
+    .headernav {
+        list-style: none;
+        background-color: #1a1a1a;
+        margin: 0%;
+        margin-top: -30px;
+        padding: 0%;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .navlinks {
+        float: right;
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s linear;
+        padding-left: 7px;
+        padding-right: 17px;
+        font-weight: bold;
+    }
+
+    .navlinks:hover {
+        color: #d42a2a;
+    }
+}
+
+@media all and (min-width: 961px) and (max-width: 1280px) {
+    header {
+        background-color: #d42a2a;
+        width: 100%;
+        padding-top: 1px;
+    }
+
+    .logocontainer {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        height: 200px;
+    }
+
+    .headernav {
+        list-style: none;
+        background-color: #1a1a1a;
+        margin: 0%;
+        margin-top: -100px;
+        padding: 0%;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .navlinks {
+        float: right;
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s linear;
+        padding-left: 7px;
+        padding-right: 17px;
+        font-weight: bold;
+    }
+
+    .navlinks:hover {
+        color: #d42a2a;
+    }
+}
+
+@media all and (min-width: 1281px) {
+    header {
+        background-color: #d42a2a;
+        width: 100%;
+        padding-top: 1px;
+    }
+
+    .logocontainer {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        height: 200px;
+    }
+
+    .headernav {
+        list-style: none;
+        background-color: #1a1a1a;
+        margin: 0%;
+        margin-top: -100px;
+        padding: 0%;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .navlinks {
+        float: right;
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s linear;
+        padding-left: 7px;
+        padding-right: 17px;
+        font-weight: bold;
+    }
+
+    .navlinks:hover {
+        color: #d42a2a;
+    }
+}
